@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Staff Administrator Icon</name>
+   <name>Iframe Staff Information Chronology</name>
    <tag></tag>
-   <elementGuidId>d113ec4c-1ee1-460c-9cce-81fd107c0a99</elementGuidId>
+   <elementGuidId>ab1322fc-8b7c-478f-b419-ea8db52ab349</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id=&quot;HBar_Applications_T1G3I5&quot;]/span/span/span</value>
+         <value>//iframe[@id='DetailNavigationFrame']</value>
       </entry>
       <entry>
          <key>BASIC</key>

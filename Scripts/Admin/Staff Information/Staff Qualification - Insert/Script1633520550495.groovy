@@ -17,19 +17,51 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Login to AMS
-WebUI.callTestCase(findTestCase('Login/Login to AMS'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Admin/Staff Information/Edit Staff Information'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
 
-//Click on "Admin" FM Ribbon Menu Button
-WebUI.click(findTestObject('Admin_OR/Admin Icon/a_Admin Icon'))
+//Click on the Insert New (Blank Doc) Icon
+WebUI.switchToFrame(findTestObject('Object Repository/Admin_OR/General Information_OR/Staff Information/Staff Infornation Edit/iFrame Staff Information'), 30)
 
-//Click on General Administration tab
+WebUI.click(findTestObject('Object Repository/Admin_OR/General Information_OR/Staff Information/Staff Qualification/Select New button'))
 
-WebUI.click(findTestObject('Object Repository/Admin_OR/General Information_OR/General Information icon/GeneralInfo Icon_OR'))
+WebUI.switchToDefaultContent()
 
-//Click on Staff Information tab
+WebUI.switchToWindowIndex(1)
 
-WebUI.click(findTestObject('Object Repository/Admin_OR/General Information_OR/Staff Administrator/Staff Administrator Icon'))
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Admin_OR/General Information_OR/Staff Information/Staff Qualification/Staff Qualification picklist arrow'))
+
+//select value
+String OversightOfficer = findTestData('Data Files/Project_Data (1)').getValue(1, 1)
+
+System.out.println(OversightOfficer)
+
+WebUI.delay(2)
+
+String xpath3 = ('//*[@id="ui-id-1"]//*[text()="' + OversightOfficer) + '"]'
+
+TestObject project3 = new TestObject('objectName')
+
+project3.addProperty('xpath', ConditionType.EQUALS, xpath3)
+
+WebUI.click(project3, FailureHandling.STOP_ON_FAILURE)
+
+System.out.println(xpath3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
