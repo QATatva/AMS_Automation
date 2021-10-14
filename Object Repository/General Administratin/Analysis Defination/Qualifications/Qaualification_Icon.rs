@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Qaualification_Icon</name>
+   <tag></tag>
+   <elementGuidId>e3ddecde-b5f3-438a-b6e9-60575f646971</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id=&quot;DetailNavigationStrip&quot;]//*[@id=&quot;DetailNavigation_Analysis_Code_Maintenance_Qualifications_Caption&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

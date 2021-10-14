@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Linked_Document_icon</name>
+   <tag></tag>
+   <elementGuidId>c087e42e-2cc4-4dd8-89c8-826c01acc9a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=&quot;DetailNavigation_WTO_ROOT&quot;]//*[@id=&quot;DetailNavigation_Linked_Documents_Caption&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
