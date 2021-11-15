@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check_In_Sample_To_Storage_Location -for single Sample with Unlimited Capacity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee043ca9-cb70-4294-a628-36716498cec6</testCaseGuid>
+</TestCaseEntity>

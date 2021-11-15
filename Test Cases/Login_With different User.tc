@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_With different User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a3f94d7-a33f-4bc9-9f02-8f3be1f30aca</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99619e75-ff44-426d-ab80-9cfe762efacd</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>31acbd0b-b0b6-47ad-8628-ac3fd9227811</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

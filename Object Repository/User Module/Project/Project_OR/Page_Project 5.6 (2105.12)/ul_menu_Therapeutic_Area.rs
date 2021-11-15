@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ul_menu_Therapeutic_Area</name>
+   <tag></tag>
+   <elementGuidId>d5d5072e-ae93-4d5d-bc0c-b2d8cbe0d926</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ui-id-9']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ui-id-8</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

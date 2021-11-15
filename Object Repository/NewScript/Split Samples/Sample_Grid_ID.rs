@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Sample_Grid_ID</name>
+   <tag></tag>
+   <elementGuidId>20ae5ca9-a9c3-4438-a743-ce9ac5bd1daa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id=&quot;SampleParticipantGrid_DXMainTable&quot;]//td[@id=&quot;SampleParticipantGrid_tccell0_1&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

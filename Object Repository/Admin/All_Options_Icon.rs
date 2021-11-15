@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>All_Options_Icon</name>
+   <tag></tag>
+   <elementGuidId>8dcd20a4-d98e-465a-b8f5-88a365cc7300</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=&quot;HBar_Applications_RTC&quot;]//li[@id=&quot;HBar_Applications_T1G0&quot;]//img[@id=&quot;HBar_Applications_T1G0I0_LI&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

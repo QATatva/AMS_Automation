@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Manage_Storage_Location_Icon</name>
+   <tag></tag>
+   <elementGuidId>5e47bb78-cfbd-43ab-b45d-3ec08541e163</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id=&quot;HeaderBar1Left_Workfow_MENUDATA&quot;]//td[@id=&quot;ACH_MBI_C2_Edit_Storage_Location&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
